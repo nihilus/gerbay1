@@ -331,7 +331,7 @@ char wanted_hotkey[] = "Ctrl+1";
 //      PLUGIN DESCRIPTION BLOCK
 //
 //--------------------------------------------------------------------------
-plugin_t PLUGIN =
+extern "C" plugin_t PLUGIN =
 {
   IDP_INTERFACE_VERSION,
   0,                    // plugin flags
